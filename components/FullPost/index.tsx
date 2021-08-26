@@ -9,7 +9,7 @@ import styles from './FullPost.module.scss';
 export const FullPost = () => {
   return (
     <Paper elevation={0} className={styles.paper}>
-      <div className="container">
+      <div style={{ margin: '0 auto', width: 680 }}>
         <Typography variant="h4" className={styles.title}>
           Superjet, летящий из Волгограда в Москву, подал сигнал бедствия. Возможно, в полете
           произошла разгерметизация
